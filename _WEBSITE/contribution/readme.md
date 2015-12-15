@@ -1,12 +1,8 @@
 ## Contribution folder
 
-When an user contribute to the site, its file will be recorded in this folder
+When an user contribute to the site, its file will be recorded in this folder as well as the form as a txt file with upload date in the filename. The image file uploaded will be renamed by Misspelled Icon Name from form if existing. If another file with same name already exists, it will be renamed (1), (2), etc.
 
-File will be renamed by Misspelled Icon Name from form, if existing,
-Files will be renamed (1), (2), etc. if another with same name already exists
-Form will be recorded in a txt file with creation date
-
-Exemple of content that will appear in this folder after contributions:
+### Exemple of content that will appear in this folder after contributions:
 
 * nerd.png
 * nerd-png-monday-14th-of-december-2015-10-21-07-pm.txt

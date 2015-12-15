@@ -2,6 +2,8 @@
 
 In this folder, put  your files directly at the root with the 3 versions: ico, png and svg, like this:
 
+### Exemple of content
+
 * abg.ico
 * abg.png
 * abg.svg
