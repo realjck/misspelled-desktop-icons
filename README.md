@@ -4,10 +4,6 @@ The earliest known image compilation of hand-drawn icons can be found in a 4chan
 
 See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.com/memes/ms-paint-desktop-icons)
 
-**Project homepage:** [http://misspelleddesktopicons.smalk.co](http://misspelleddesktopicons.smalk.co)
-
-![Collection](http://misspelleddesktopicons.smalk.co/collection.png)
-
 
 ## Proposed file formats
 
@@ -91,6 +87,9 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * yahew-masngaers
 
 
-## Contribution
 
-Feel free to contribute by sending in pull requests
+### This webpage uses:
+
+* [bootstrap 3](https://github.com/twbs/bootstrap)
+* [Simplex theme by bootswatch](http://bootswatch.com/)
+* [bootstrap3-dialog by nakupanda](https://github.com/nakupanda/bootstrap3-dialog)
