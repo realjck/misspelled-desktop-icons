@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Misspelled Desktop Icons Collection</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <meta property="og:title" content="Misspelled Desktop Icons Collection" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="The earliest known image compilation of hand-drawn icons can be found in a 4chan thread dating back to November 30th, 2007. The OP began the thread with a rather poorly drawn Google site logo and the misspelled caption Gouleg. Status, confirmed, year 2008, origin 4chan, tags 4chan, wurds, ms, paint, ms paint, misspelled, desktop, icons, about, mS Paint Desktop Icons (also known as Misspelled Desktop Icons) refers to a series of hand-drawn computer icons with intentional spelling errors created by using basic image editors like MS Paint. The thread came to be also known by alternative names like Draw Desktop Icon in 30 seconds. The practical usage of such icons outside of 4chan threads remains little documented, but their aesthetics and nostalgic value seem to be the main appeals."
+    />
+    <meta property="og:image" content="elp-n-suppor.png" />
+
+    <!-- Bootstrap core CSS + personnalisation + Bootstrap3 dialog CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#" id="collectionlink" class="nolink">In this collection <span class="badge">42</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container spacer">
+      <!-- Intro -->
+      <div class="row">
+        <h1>Misspelled Desktop Icons Collection</h1>
+        <br>
+        <!-- visible -->
+        <div class="collection">
+          <blockquote>
+            <p>The earliest known image compilation of hand-drawn icons can be found in a 4chan thread dating back to November 30th, 2007. The OP began the thread with a rather poorly drawn Google site logo and the misspelled caption Gouleg. Status, confirmed,
+              year 2008, origin 4chan, tags 4chan, wurds, ms, paint, ms paint, misspelled, desktop, icons, about, mS Paint Desktop Icons (also known as Misspelled Desktop Icons) refers to a series of hand-drawn computer icons with intentional spelling errors
+              created by using basic image editors like MS Paint. The thread came to be also known by alternative names like Draw Desktop Icon in 30 seconds. The practical usage of such icons outside of 4chan threads remains little documented, but their
+              aesthetics and nostalgic value seem to be the main appeals.</p>
+            <small><a href="http://knowyourmeme.com/memes/ms-paint-desktop-icons" target="_blank">knowyourmeme</a></small>
+          </blockquote>
+        </div>
+      </div>
+
+      <!-- Main content -->
+	  <div id="main" class="spacer">
+		<div id="main" class="row collection">
+	 
+		<!-- MODEL
+          <div class="col-xs-4 col-sm-2 text-center">
+            <div class="icon">
+              <div class="flyout">
+                <div class="btn-group-vertical">
+					<a class='btn btn-default btn-xs' href='collection/ico/abg.ico' download>.ico</a>
+					<a class='btn btn-default btn-xs' href='collection/png/abg.png' download>.png</a>
+					<a class='btn btn-default btn-xs' href='collection/svg/abg.svg' download>.svg</a>
+                </div>
+              </div>
+              <img src='collection/png/abg.png' class='img-responsive'>
+            </div>
+            <h5>abg</h5>
+          </div>
+		-->
+
+      </div>
+
+      <!-- Some footer -->
+      <footer>
+        <div class="row spacer">
+          <div class="col-lg-12">
+            <p>Website by <a href="https://devjck.fr" target="_blank">realjck</a>, hosted on <a href="https://github.com/realjck/misspelleddesktopicons" target="_blank">Github</a>.</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- /container -->
+  
+    <!-- jQuery & Bootstrap core JavaScript -->
+    <script src="libs/jquery-1.12.4.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+	
+	<script src="collection/_COLLECTION.js"></script>
+    <script>
+	
+	// ADD CONTENT
+	console.log(_COLLECTION);
+	$("#collectionlink .badge").html(_COLLECTION.length);
+	
+	for (var i=0; i<_COLLECTION.length; i++){
+	
+		if (i % 6 == 0){
+			$("#main").append('</div><div id="main" class="row collection">');
+		}
+	
+		var html = '<div class="col-xs-4 col-sm-2 text-center"><div class="icon"><div class="flyout"><div class="btn-group-vertical"><a class="btn btn-default btn-xs" href="collection/ico/'+_COLLECTION[i]+'.ico" download>.ico</a><a class="btn btn-default btn-xs" href="collection/png/'+_COLLECTION[i]+'.png" download>.png</a><a class="btn btn-default btn-xs" href="collection/svg/'+_COLLECTION[i]+'.svg" download>.svg</a></div></div><img src="collection/png/'+_COLLECTION[i]+'.png" class="img-responsive"></div><h5>'+_COLLECTION[i]+'</h5></div>';
+		
+		$("#main").append(html);
+		
+	}
+
+
+      document.addEventListener("dragstart", preventDrag);
+      function preventDrag(event) {
+        event.preventDefault();
+      }
+
+      $(".nolink").css("pointer-events", "none");
+
+      $(".icon").hover(function() {
+        $(this).find('.img-responsive').css("opacity", "0.35");
+        $(this).find('.flyout').css({
+          'z-index': '1'
+        });
+        $(this).find('.flyout').show();
+        $(this).find('.flyout').css({
+          'top': (($(this).find('.img-responsive').height()) - ($(this).find('.btn-group-vertical').height())) / 2
+        });
+        $(this).find('.flyout').css({
+          'padding-left': (($(this).find('.img-responsive').width()) - ($(this).find('.btn-group-vertical').width())) / 2
+        });
+      }, function() {
+        $(this).find('.flyout').hide();
+        $(this).find('.img-responsive').css("opacity", "1");
+      });
+
+    </script>
+  </body>
+</html>
