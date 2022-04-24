@@ -2,7 +2,7 @@
 
 How to add en element :
 
-* EDIT __COLLECTION.JS_ by adding the filename (lowercase), in correct alphabetical order in the list
+* EDIT _collection.js_ by adding the filename (lowercase), in correct alphabetical order in the list
 
 * ADD ICONS IN THE FOLLOWING FOLDERS : **/ico** , **/png** , **/svg**
 
