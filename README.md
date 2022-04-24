@@ -29,6 +29,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * camrend-pormt
 * deabro-free
 * dick-defagger
+* discurd
 * dormon-tul
 * drupbux
 * eksplurr
@@ -90,6 +91,6 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 
 ### This webpage uses:
 
+* jQuery
 * [bootstrap 3](https://github.com/twbs/bootstrap)
 * [Simplex theme by bootswatch](http://bootswatch.com/)
-* [bootstrap3-dialog by nakupanda](https://github.com/nakupanda/bootstrap3-dialog)
