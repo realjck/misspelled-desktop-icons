@@ -1,6 +1,13 @@
 ## Collection folder
 
-In this folder, put  your files directly at the root with the 3 versions: ico, png and svg, like this:
+How to add en element :
+
+* EDIT __COLLECTION.JS_ by adding the filename (lowercase), in correct alphabetical order in the list
+
+* ADD ICONS IN THE FOLLOWING FOLDERS : **/ico** , **/png** , **/svg**
+
+### FILE FORMATS
+* See root Readme
 
 ### Exemple of content
 
