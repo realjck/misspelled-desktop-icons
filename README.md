@@ -87,7 +87,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * taem-furtres
 * tarr-bouzer
 * terrerrya
-* tikokt
+* toktok
 * tursk-munerger
 * twerder
 * urdacirtieh

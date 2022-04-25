@@ -69,7 +69,7 @@ var _COLLECTION = [
 "taem-furtres",
 "tarr-bouzer",
 "terrerrya",
-"tikokt",
+"toktok",
 "tursk-munerger",
 "twerder",
 "urdacirtieh",
