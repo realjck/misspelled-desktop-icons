@@ -16,7 +16,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 **svg:** Scalable Vector Graphics files / version 1.1
 
 
-## Available icons (88)
+## Available icons (87)
 
 * abg
 * achoons
@@ -42,7 +42,6 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * envida
 * epple
 * ewe-turrent
-* facbok
 * fah-fox
 * faiuhl-zihla
 * fayndir

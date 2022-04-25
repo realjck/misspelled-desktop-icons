@@ -24,7 +24,6 @@ var _COLLECTION = [
 "envida",
 "epple",
 "ewe-turrent",
-"facbok",
 "fah-fox",
 "faiuhl-zihla",
 "fayndir",
