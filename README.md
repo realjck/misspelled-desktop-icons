@@ -16,7 +16,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 **svg:** Scalable Vector Graphics files / version 1.1
 
 
-## Available icons (95)
+## Available icons (96)
 
 * abg
 * achoons
@@ -92,6 +92,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * sven-zap
 * taem-furtres
 * tarr-bouzer
+* tegrum
 * tems
 * terrerrya
 * tho-simms-2
