@@ -16,7 +16,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 **svg:** Scalable Vector Graphics files / version 1.1
 
 
-## Available icons (87)
+## Available icons (94)
 
 * abg
 * achoons
@@ -25,6 +25,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * ai-see-qu
 * ardurb-radar
 * ayoel
+* bitornet
 * bizoualuideo
 * boonoountoo
 * bremur
@@ -36,6 +37,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * discurd
 * dormon-tul
 * drupbux
+* edgy
 * eksplurr
 * elp-n-suppor
 * emiti
@@ -73,12 +75,15 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * nytepod
 * ophrah
 * opn-ofice
+* orgen
 * pedef
 * pent
 * poty
 * purtol-too
 * queerk-threa
+* rawblockz
 * seeclearner
+* sipign-tole
 * skiep
 * skrim
 * spotefhy
@@ -86,8 +91,10 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * sven-zap
 * taem-furtres
 * tarr-bouzer
+* tems
 * terrerrya
-* toktok
+* tho-simms-2
+* tictoc
 * tursk-munerger
 * twerder
 * urdacirtieh
