@@ -74,7 +74,7 @@ var _COLLECTION = [
 "sven-zap",
 "taem-furtres",
 "tarr-bouzer",
-"tegrum",
+"telgrem",
 "tems",
 "terrerrya",
 "tho-simms-2",

@@ -92,7 +92,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * sven-zap
 * taem-furtres
 * tarr-bouzer
-* tegrum
+* telgrem
 * tems
 * terrerrya
 * tho-simms-2
