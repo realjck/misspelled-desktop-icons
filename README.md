@@ -16,7 +16,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 **svg:** Scalable Vector Graphics files / version 1.1
 
 
-## Available icons (96)
+## Available icons (100)
 
 * abg
 * achoons
@@ -31,6 +31,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * bremur
 * calxluater
 * camrend-pormt
+* canav
 * dato2
 * deabro-free
 * dick-defagger
@@ -59,6 +60,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * hafl-live-teu
 * hylyff
 * intrnt-explurr
+* intsagrm
 * leg-ef-lehhins
 * logic-tek
 * lcusatrats
@@ -70,6 +72,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * moncroft
 * munswapper
 * muvie-raker
+* nasptr
 * natnial-gegrapic
 * ndroyt
 * nehdpd-bluz
@@ -79,6 +82,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * orgen
 * pedef
 * pent
+* pintreset
 * poty
 * purtol-too
 * queerk-threa
