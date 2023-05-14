@@ -112,23 +112,15 @@
 	// ADD CONTENT
 	$("#collectionlink .badge").html(_COLLECTION.length);
 	
-	for (var i=0; i<_COLLECTION.length; i++){
-	
-		if (i % 6 == 0){
-			$("#main").append('</div><div id="main" class="row collection">');
-		}
-	
-		var html = '<div class="col-xs-4 col-sm-2 text-center"><div class="icon"><div class="flyout"><div class="btn-group-vertical"><a class="btn btn-default btn-xs" href="collection/ico/'+_COLLECTION[i]+'.ico" download>.ico</a><a class="btn btn-default btn-xs" href="collection/png/'+_COLLECTION[i]+'.png" download>.png</a><a class="btn btn-default btn-xs" href="collection/svg/'+_COLLECTION[i]+'.svg" download>.svg</a></div></div><img src="collection/png/'+_COLLECTION[i]+'.png" class="img-responsive"></div><h5>'+_COLLECTION[i]+'</h5></div>';
-		
-		$("#main").append(html);
-		
-	}
+  _COLLECTION.forEach((icone, index) => {
+    
+    $("#main").append(index % 6 == 0 ? '</div><div id="main" class="row collection">':'');
+    
+    $("#main").append('<div class="col-xs-4 col-sm-2 text-center"><div class="icon"><div class="flyout"><div class="btn-group-vertical"><a class="btn btn-default btn-xs" href="collection/ico/'+icone+'.ico" download>.ico</a><a class="btn btn-default btn-xs" href="collection/png/'+icone+'.png" download>.png</a><a class="btn btn-default btn-xs" href="collection/svg/'+icone+'.svg" download>.svg</a></div></div><img src="collection/png/'+icone+'.png" class="img-responsive"></div><h5>'+icone+'</h5></div>');
+  })
 
 
-      document.addEventListener("dragstart", preventDrag);
-      function preventDrag(event) {
-        event.preventDefault();
-      }
+      document.addEventListener("dragstart", e => event.preventDefault());
 
       $(".nolink").css("pointer-events", "none");
 
