@@ -4,8 +4,15 @@ The earliest known image compilation of hand-drawn icons can be found in a 4chan
 
 See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.com/memes/ms-paint-desktop-icons)
 
-## [realjck.github.io/misspelleddesktopicons/](https://realjck.github.io/misspelleddesktopicons/)
-[<img src="preview.png">](https://realjck.github.io/misspelleddesktopicons/)
+## [Repository Website link](https://realjck.github.io/misspelleddesktopicons/)
+
+## local use
+
+Clone/copy the repository on your local drive, you can directly launch the WebPage at `index.html` file at te root. There's no need to be on localhost (because data is in a JS file, and not a JSON).
+
+## kontribyuhteng?
+
+If you stumble upon or feel inspired to contribute, simply clone the repository, create your branch, add your creations, and submit a pull request for review. Please ensure to include at least one PNG image in the `/collection/png/` folder. 
 
 ## Proposed file formats
 
@@ -14,7 +21,6 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 **png:** image/PNG files / 256x256px / 32-bit color (with alpha channel)
 
 **svg:** Scalable Vector Graphics files / version 1.1
-
 
 ## Available icons (100)
 
@@ -119,10 +125,20 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 * yahew-masngaers
 * yuotub
 
+## Libraries
 
+* Jquery
+* Bootstrap 3
 
-### This webpage uses:
+## License
 
-* jQuery
-* [bootstrap 3](https://github.com/twbs/bootstrap)
-* [Simplex theme by bootswatch](http://bootswatch.com/)
+>It's encouraged to sign your pull request to affirm your adherence to the CC0 license, confirming your contribution to the public domain.
+
+CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+
+Copy of the full CC0 legal code:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
