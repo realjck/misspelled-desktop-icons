@@ -12,7 +12,23 @@ Clone/copy the repository on your local drive, you can directly launch the WebPa
 
 ## kontribyuhteng?
 
-If you stumble upon or feel inspired to contribute, simply clone the repository, create your branch, add your creations, and submit a pull request for review. Please ensure to include at least one PNG image in the `/collection/png/` folder. 
+If you stumble upon or feel inspired to contribute, simply clone the repository :
+
+~~~~
+git clone https://github.com/realjck/misspelleddesktopicons.git
+~~~~
+
+Include at least one PNG image in the `/collection/png/` folder.
+
+To make it visible in the web page, simply add its name (without extension) in the `collection/collection.js` file.
+
+Add, commit, then submit the icon to a new branch:
+
+~~~~
+git add .
+git commit -m "icon-name"
+git push origin HEAD:icon-name
+~~~~
 
 ## Proposed file formats
 
