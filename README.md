@@ -10,17 +10,15 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 
 Clone/copy the repository, you can directly launch `index.html` at the root of the folder. There's no need to be on localhost.
 
-## kontribyuhteng?
-
-If you stumble upon or feel inspired to contribute, simply clone the repository :
-
 ~~~~
 git clone https://github.com/realjck/misspelleddesktopicons.git
 ~~~~
 
-Include at least one PNG image in the `/mdi-collection/png/` folder.
+## kontribyuhteng?
 
-To make it visible in the web page, add its name in the `mdi-collection/list.js` file.
+If you stumble upon or feel inspired to contribute, clone the repository and include at least one PNG image in the `/mdi-collection/png/` folder.
+
+To make it visible in the web page, edit `mdi-collection/list.js` and add its name to the list.
 
 Add, commit, then submit to a new branch:
 
