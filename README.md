@@ -20,7 +20,7 @@ git clone https://github.com/realjck/misspelleddesktopicons.git
 
 Include at least one PNG image in the `/mdi-collection/png/` folder.
 
-To make it visible in the web page, simply add its name (without extension) in the `mdi-collection/list.js` file.
+To make it visible in the web page, simply add its name (kebab-case without extension) in the `mdi-collection/list.js` file.
 
 Add, commit, then submit to a new branch:
 
@@ -29,6 +29,8 @@ git add .
 git commit -m "icon-name"
 git push origin HEAD:icon-name
 ~~~~
+
+Finally create a pull-request on GitHub as prompted in the terminal console.
 
 ## Proposed file formats
 
