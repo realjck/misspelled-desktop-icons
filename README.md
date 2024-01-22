@@ -24,8 +24,8 @@ Add, commit, then submit to a new branch:
 
 ~~~~
 git add .
-git commit -m "icon-name"
-git push origin HEAD:icon-name
+git commit -m "<icon-name>"
+git push origin <icon-name>
 ~~~~
 
 ## Proposed file formats
