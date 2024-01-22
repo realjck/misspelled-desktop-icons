@@ -1,15 +1,15 @@
-## Collection folder
+## Mispelled Desktop Icons Collection folder
 
-How to add en element :
+How to add an icon:
 
-* EDIT _collection.js_ by adding the filename (lowercase), in correct alphabetical order in the list
+* Edit _list.js_ by adding the icon filename (lowercase without extension)
 
-* ADD ICONS IN THE FOLLOWING FOLDERS : **/ico** , **/png** , **/svg**
+* Add icons in the following folders: **/ico** , **/png** , **/svg**
 
-### FILE FORMATS
+### File formats
 * See root Readme
 
-### Exemple of content
+### Example of content
 
 * abg.ico
 * abg.png
