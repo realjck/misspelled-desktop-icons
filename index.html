@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,10 +23,7 @@
 	<meta name="twitter:title" content="Misspelled Desktop Icons Collection">
 	<meta name="twitter:description" content="Series of hand-drawn computer icons with intentional spelling errors created by using basic image editors like MS Paint">
 	<meta name="twitter:image" content="https://realjck.github.io/misspelleddesktopicons/preview.png">
-
-	<!-- Meta Tags Generated via https://www.opengraph.xyz -->
       
-
     <!-- Bootstrap core CSS + personnalisation + Bootstrap3 dialog CSS -->
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -50,7 +47,6 @@
         </div>
       </div>
     </div>
-
     <div class="container spacer">
       <!-- Intro -->
       <div class="row">
@@ -67,11 +63,9 @@
           </blockquote>
         </div>
       </div>
-
       <!-- Main content -->
-	  <div id="main" class="spacer">
+	  <div class="spacer">
 		<div id="main" class="row collection">
-	 
 		<!-- MODEL
           <div class="col-xs-4 col-sm-2 text-center">
             <div class="icon">
@@ -87,60 +81,22 @@
             <h5>abg</h5>
           </div>
 		-->
-
+        </div>
       </div>
-
       <!-- Some footer -->
       <footer>
         <div class="row spacer">
           <div class="col-lg-12">
-            <p>Website by <a href="https://devjck.fr" target="_blank">realjck</a>, hosted on <a href="https://github.com/realjck/misspelleddesktopicons" target="_blank">Github</a>.</p>
+            <p>Website by jck, hosted on <a href="https://github.com/realjck/misspelleddesktopicons" target="_blank">Github</a>.</p>
           </div>
         </div>
       </footer>
-
+        <!-- /container -->
     </div>
-    <!-- /container -->
-  
-    <!-- jQuery & Bootstrap core JavaScript -->
-    <script src="libs/jquery-1.12.4.min.js"></script>
-    <script src="libs/bootstrap.min.js"></script>
-	
-	<script src="collection/collection.js"></script>
-    <script>
-	
-	// ADD CONTENT
-	$("#collectionlink .badge").html(_COLLECTION.length);
-	
-  _COLLECTION.forEach((icone, index) => {
-    
-    $("#main").append(index % 6 == 0 ? '</div><div id="main" class="row collection">':'');
-    
-    $("#main").append('<div class="col-xs-4 col-sm-2 text-center"><div class="icon"><div class="flyout"><div class="btn-group-vertical"><a class="btn btn-default btn-xs" href="collection/ico/'+icone+'.ico" download>.ico</a><a class="btn btn-default btn-xs" href="collection/png/'+icone+'.png" download>.png</a><a class="btn btn-default btn-xs" href="collection/svg/'+icone+'.svg" download>.svg</a></div></div><img src="collection/png/'+icone+'.png" class="img-responsive"></div><h5>'+icone+'</h5></div>');
-  })
-
-
-      document.addEventListener("dragstart", e => event.preventDefault());
-
-      $(".nolink").css("pointer-events", "none");
-
-      $(".icon").hover(function() {
-        $(this).find('.img-responsive').css("opacity", "0.35");
-        $(this).find('.flyout').css({
-          'z-index': '1'
-        });
-        $(this).find('.flyout').show();
-        $(this).find('.flyout').css({
-          'top': (($(this).find('.img-responsive').height()) - ($(this).find('.btn-group-vertical').height())) / 2
-        });
-        $(this).find('.flyout').css({
-          'padding-left': (($(this).find('.img-responsive').width()) - ($(this).find('.btn-group-vertical').width())) / 2
-        });
-      }, function() {
-        $(this).find('.flyout').hide();
-        $(this).find('.img-responsive').css("opacity", "1");
-      });
-
-    </script>
   </body>
+  <!-- jQuery & Bootstrap core JavaScript -->
+  <script src="libs/jquery-1.12.4.min.js"></script>
+  <script src="libs/bootstrap.min.js"></script>
+  <script src="mdi-collection/list.js"></script>
+  <script src="js/app.js"></script>
 </html>

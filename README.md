@@ -8,15 +8,31 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 
 ## local use
 
-Clone/copy the repository on your local drive, you can directly launch the WebPage at `index.html` file at te root. There's no need to be on localhost (because data is in a JS file, and not a JSON).
+Clone/copy the repository, you can directly open in your browser the `index.html` file at te root of the folder. There's no need to be on localhost (because data is in a JS file, and not a JSON).
 
 ## kontribyuhteng?
 
-If you stumble upon or feel inspired to contribute, simply clone the repository, create your branch, add your creations, and submit a pull request for review. Please ensure to include at least one PNG image in the `/collection/png/` folder. 
+If you stumble upon or feel inspired to contribute, simply clone the repository :
+
+~~~~
+git clone https://github.com/realjck/misspelleddesktopicons.git
+~~~~
+
+Include at least one PNG image in the `/mdi-collection/png/` folder.
+
+To make it visible in the web page, simply add its name (without extension) in the `mdi-collection/list.js` file.
+
+Add, commit, then submit to a new branch:
+
+~~~~
+git add .
+git commit -m "icon-name"
+git push origin HEAD:icon-name
+~~~~
 
 ## Proposed file formats
 
-**ico:** ICO files / sizes embeded: 256x256px, 128x128px, 48x48px, 32x32px, 16x16px / 32-bit color (with alpha channel)
+**ico:** ICO files / sizes embedded: 256x256px, 128x128px, 48x48px, 32x32px, 16x16px / 32-bit color (with alpha channel)
 
 **png:** image/PNG files / 256x256px / 32-bit color (with alpha channel)
 
