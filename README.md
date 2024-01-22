@@ -30,6 +30,8 @@ git commit -m "icon-name"
 git push origin HEAD:icon-name
 ~~~~
 
+Finally create a pull-request on GitHub as prompted in the terminal console.
+
 ## Proposed file formats
 
 **ico:** ICO files / sizes embedded: 256x256px, 128x128px, 48x48px, 32x32px, 16x16px / 32-bit color (with alpha channel)
