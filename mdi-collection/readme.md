@@ -2,9 +2,9 @@
 
 How to add an icon:
 
-* Edit _list.js_ by adding the icon filename (lowercase without extension)
+* Edit `list.js` by adding the icon filename (lowercase without extension)
 
-* Add icons in the following folders: **/ico** , **/png** , **/svg**
+* Add icons in the following folders: `ico/`, `png/`, `svg/`
 
 ### File formats
 * See root Readme
