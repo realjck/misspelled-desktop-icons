@@ -8,7 +8,7 @@ See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.c
 
 ## local use
 
-Clone/copy the repository, you can directly open in your browser the `index.html` file at te root of the folder. There's no need to be on localhost (because data is in a JS file, and not a JSON).
+Clone/copy the repository, you can directly launch `index.html` at the root of the folder. There's no need to be on localhost.
 
 ## kontribyuhteng?
 
@@ -20,7 +20,7 @@ git clone https://github.com/realjck/misspelleddesktopicons.git
 
 Include at least one PNG image in the `/mdi-collection/png/` folder.
 
-To make it visible in the web page, simply add its name (kebab-case without extension) in the `mdi-collection/list.js` file.
+To make it visible in the web page, add its name in the `mdi-collection/list.js` file.
 
 Add, commit, then submit to a new branch:
 
@@ -29,8 +29,6 @@ git add .
 git commit -m "icon-name"
 git push origin HEAD:icon-name
 ~~~~
-
-Finally create a pull-request on GitHub as prompted in the terminal console.
 
 ## Proposed file formats
 
