@@ -3,48 +3,48 @@
     overrides Bootstrap / Bootswatch
  */
 
+/* Main elements
+-------------------------------------------------- */
+
+* {
+	--color-accent: #D9230F;
+}
+
 html {
 	position: relative;
 	min-height: 100%;
-	--color-accent: #D9230F;
 }
+
 body {
 	/* Margin bottom by footer height */
 	margin-bottom: 60px;
+	overflow-x: hidden;
 }
-/* Custom scrollbar: */
-::-webkit-scrollbar-track {
-	background: #ddd;
-}
-::-webkit-scrollbar-thumb {
-	background: var(--color-accent);
-}
-::-webkit-scrollbar-thumb:hover {
-	background: var(--color-accent);
-}
-::-webkit-scrollbar {
-	width: 5px;
-	height: 5px;
-}
-.badge {
-	background-color: var(--color-accent);
-}
-a, a:hover {
-	color: var(--color-accent);
-}
-a:focus {
-	outline: none;
-}
+
 h5, .h5 {
 	font-size: 14px;
 	margin: 0 0 2.5em;
 }
+
+a, a:hover {
+	color: var(--color-accent);
+}
+
+a:focus {
+	outline: none;
+}
+
 .spacer {
 	margin-top: 50px;
 }
 
-/* Icons flyout
+.badge {
+	background-color: var(--color-accent);
+}
+
+/* Misspelled Icons flyout
 -------------------------------------------------- */
+
 .flyout {
 	position: absolute;
 	width: 100%;
@@ -52,46 +52,80 @@ h5, .h5 {
 	text-align: left;
 	display: none;
 }
+
 .flyout .btn:hover {
 	background-image: none;
 	background-color: var(--color-accent) !important;
 }
+
 .img-responsive {
 	transition-property: opacity, filter;
 	transition-duration: 250ms;
 }
 
+/* Custom Webkit scrollbar
+-------------------------------------------------- */
+
+::-webkit-scrollbar-track {
+	background: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--color-accent);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-accent);
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
 /* Navbar
 -------------------------------------------------- */
+
 .navbar-default {
 	background-color: #bbb;
 }
-.nav li {
-    background-color: white;
-    border-radius: 13px;
-    height: 26px;
-    margin-top: 7px;
+
+.navbar-default .nav li {
+	background-color: white;
+	border-radius: 13px;
+	height: 26px;
+	margin-top: 7px;
 }
-a.no-link {
-    margin-top: -7px;
+
+.navbar-default a.no-link {
+	margin-top: -7px;
 	white-space: nowrap;
 	pointer-events: none;
 }
 
+.navbar-default a.no-link > span {
+	margin-top: -2px;
+}
+
 /* Disable navbar burger, keep full navbar:
 -------------------------------------------------- */
+
 .navbar-toggle {
 	display: none !important;
 }
+
 .navbar-collapse {
 	display: block !important;
 }
+
 .navbar-nav {
 	margin: 0 !important;
 }
+
 .nav li {
 	float: left !important;
 }
+
 .navbar-right {
 	float: right !important;
 	margin-right: 0 !important;
@@ -99,6 +133,7 @@ a.no-link {
 
 /* Sticky footer styles
 -------------------------------------------------- */
+
 footer {
 	position: absolute;
 	bottom: 0;
