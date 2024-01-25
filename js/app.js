@@ -18,11 +18,9 @@ _COLLECTION.forEach((icon, index) => {
 })
 
 document.addEventListener("dragstart", e => e.preventDefault());
-
-$(".no-link").css("pointer-events", "none");
-
 $(".icon").hover(function() {
-    $(this).find('.img-responsive').css("opacity", "0.35");
+    $(this).find('.img-responsive').css("opacity", "0.2")
+        .css("filter", "grayscale(1)");
     $(this).find('.flyout').css({
         'z-index': '1'
     });
@@ -37,5 +35,6 @@ $(".icon").hover(function() {
     });
 }, function() {
     $(this).find('.flyout').hide();
-    $(this).find('.img-responsive').css("opacity", "1");
+    $(this).find('.img-responsive').css("opacity", "1")
+        .css("filter", "grayscale(0)");
 });
