@@ -4,14 +4,14 @@ The earliest known image compilation of hand-drawn icons can be found in a 4chan
 
 See [http://knowyourmeme.com/memes/ms-paint-desktop-icons](http://knowyourmeme.com/memes/ms-paint-desktop-icons)
 
-## [Repository Website link](https://realjck.github.io/misspelleddesktopicons/)
+## [> Repository Website link](https://realjck.github.io/misspelled-desktop-icons/)
 
 ## local use
 
 Clone/copy the repository, you can directly launch `index.html` at the root of the folder. There's no need to be on localhost.
 
 ~~~~
-git clone https://github.com/realjck/misspelleddesktopicons.git
+git clone https://github.com/realjck/misspelled-desktop-icons.git
 ~~~~
 
 ## kontribyuhteng?
