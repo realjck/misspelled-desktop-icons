@@ -3,6 +3,8 @@
  * ----------------------------------------------
  */
 
+document.addEventListener("dragstart", e => e.preventDefault());
+
 /**
  * Icon count
  */
@@ -26,7 +28,8 @@ _COLLECTION.forEach((icon, index) => {
  * Display of icon blocks on hovers
  * there is a chance that this part of the code can be redone entirely in css.
  */
-$(".icon").hover(() => {
+$(".icon").hover(function ()  {
+    console.log('yo', $(this));
     $(this).find('.img-responsive').css("opacity", "0.2")
         .css("filter", "grayscale(1)");
     $(this).find('.icon-block').css({
